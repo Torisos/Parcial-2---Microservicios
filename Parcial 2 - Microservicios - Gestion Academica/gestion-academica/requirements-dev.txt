@@ -1,0 +1,8 @@
+# Dependencias para correr las pruebas unitarias en local o en CI:  pip install -r requirements-dev.txt
+# Luego:  python -m pytest tests
+fastapi==0.115.0
+uvicorn==0.30.6
+httpx==0.27.2
+PyJWT==2.9.0
+pika==1.3.2
+pytest==8.3.3
